@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<div class="container">
+    <h1 id="weather">Weather App</h1>
+    <input type="text" id="cityInput" placeholder="Enter city name" />
+    <button onclick="getWeather()" id="getWeatherBtn">Get Weather</button>
+
+    <!-- <div class="weather-info" id="weatherInfo">
+        <h2 id="cityName"></h2>
+        <p>Temperature: <span id="temperature"></span> °C</p>
+        <p>Condition: <span id="condition"></span></p>
+        <p>Region: <span id="region"></span></p>
+        <p>Country: <span id="country"></span></p>
+        <p>Local Time: <span id="localtime"></span></p>
+    </div> -->
+</div>
+<div class="container_2">
+  <h2 style="text-decoration: underline;color: rgb(123, green, blue);" >Details Below</h2>
+  <div class="weather-info" id="weatherInfo">
+    
+    <h2 id="cityName"></h2>
+    <p>Temperature: <span id="temperature"></span> °C</p>
+    <p>Condition: <span id="condition"></span></p>
+    <p>Region: <span id="region"></span></p>
+    <p>Country: <span id="country"></span></p>
+    <p>Local Time: <span id="localtime"></span></p>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
